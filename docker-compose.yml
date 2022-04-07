@@ -1,0 +1,10 @@
+version: "3"
+services:
+  dbt:
+    container_name: local
+    build: .
+    volumes:
+      - ~/.config/gcloud:/root/.config/gcloud
+      - ./dbt_projects:/usr/app/dbt
+    ports:
+      - 8080:8080

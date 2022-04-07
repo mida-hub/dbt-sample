@@ -1,0 +1,13 @@
+sample_project:
+  outputs:
+    dev:
+      dataset: lake
+      fixed_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: your-project
+      threads: 3
+      timeout_seconds: 300
+      type: bigquery
+  target: dev

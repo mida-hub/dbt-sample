@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: lake
+    tables:
+      - name: raw_payments
